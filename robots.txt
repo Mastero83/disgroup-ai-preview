@@ -1,0 +1,44 @@
+# robots.txt - voorstel voor live https://disgroup.nl (november 2026)
+# De oude regels Disallow /*.js$, /*.css$ en /*.php$ zijn verwijderd:
+# Googlebot en Bingbot hebben CSS en JS nodig om pagina's volledig te renderen.
+# De niet-bestaande /post-sitemap.xml verwijzing is verwijderd.
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /refer/
+Disallow: /*?SID=
+
+# AI-zoekbots en gebruikersbots: expliciet welkom.
+# (Een bot met een eigen User-agent blok negeert het *-blok, dus herhaal de uitsluitingen.)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /refer/
+Disallow: /*?SID=
+
+# Trainingsbots: bewuste keuze van DIS Group.
+# Toestaan kan de kans vergroten dat AI-modellen DIS Group uit eigen kennis noemen.
+# Liever blokkeren voor modeltraining? Vervang deze regels door: Disallow: /
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /refer/
+Disallow: /*?SID=
+
+# Opmerking: Google-Extended is een controletoken voor Gemini-training, geen crawler;
+# het beinvloedt de gewone Google-zoekresultaten niet.
+
+User-agent: CensysInspect
+Disallow: /
+
+Sitemap: https://disgroup.nl/sitemap_index.xml

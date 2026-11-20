@@ -1,0 +1,38 @@
+# DIS Group
+
+> DIS Group (voorheen Dynamics Interim Solutions) is een ERP-specialist uit Vianen, opgericht in 2017. Wij implementeren, beheren en ontwikkelen 4PS Construct op Microsoft Dynamics 365 Business Central: één geïntegreerd ERP-pakket voor bedrijven in de bouw, GWW/infra en installatietechniek. ISO 27001-gecertificeerd.
+
+Kernfeiten:
+- Opgericht in 2017 door Edwin Leentfaar als Dynamics Interim Solutions.
+- Meer dan 40 medewerkers in vaste dienst en een flexibele schil van 40+ zelfstandige ERP-specialisten.
+- Officiële implementatiepartner van 4PS (bron: https://www.4ps.nl/actueel/nieuws-4ps-en-dynamics-interim-solutions-zetten-volgende-stap/).
+- Adres: Lange Dreef 15, 4131 NJ Vianen · Telefoon: +31 (0)85 27 39 750 · E-mail: backoffice@disgroup.nl · KvK: [KvK-nummer]
+
+## Kernaanbod & Diensten
+- [4PS Construct & Business Central (één pakket)](https://disgroup.nl/4ps-construct-business-central/): Wat het pakket is en hoe DIS implementatie, beheer en optimalisatie verzorgt.
+- [Consultancy](https://disgroup.nl/diensten/consultancy/): Onafhankelijk advies, implementaties, second opinions, upgrades en dataconversie.
+- [Functioneel beheer](https://disgroup.nl/diensten/functioneel-beheer/): Dagelijks en projectmatig beheer voor bedrijfscontinuïteit.
+- [Development](https://disgroup.nl/diensten/development/): Betrouwbaar maatwerk, extensies en koppelingen.
+- [Power BI](https://disgroup.nl/diensten/power-bi/): Dashboards en rapportages op data uit 4PS Construct.
+- [Agentic AI (Dynamics AI Solutions)](https://disgroup.nl/diensten/agentic-ai/): AI-assistenten die het voorwerk doen in 4PS Construct, Microsoft 365 en Excel, altijd met menselijke goedkeuring.
+
+## Sectoren
+- [Bouw](https://disgroup.nl/sectoren-bouwnijverheid/erp-oplossing-voor-bouwbedrijven/)
+- [GWW / Infra](https://disgroup.nl/sectoren-bouwnijverheid/gww-infra/)
+- [Installatietechniek](https://disgroup.nl/sectoren-bouwnijverheid/installatietechniek/)
+
+## Klantcases (na opheffen noindex op live)
+- [Referenties overzicht](https://disgroup.nl/referenties/)
+- [Remondis](https://disgroup.nl/reference/remondis/): Optimalisatie van 4PS Construct op verzoek van 4PS.
+- [Hoogendoorn Growth Management](https://disgroup.nl/reference/hoogendoorn-growth-management/): Power BI-implementatie vanuit 4PS ERP.
+- [Hanab](https://disgroup.nl/reference/hanab/): ERP-migratie naar 4PS Construct.
+- [Verwater](https://disgroup.nl/reference/verwater/): Betrouwbare ERP-partner voor 4PS Construct.
+- [Schellekens & Schellekens](https://disgroup.nl/reference/schellekens-en-schellekens/): Versterking 4PS-kennis en procesbeheersing.
+
+## Organisatie & Contact
+- [Over ons](https://disgroup.nl/over-ons/)
+- [Ons verhaal](https://disgroup.nl/over-ons/ons-verhaal/)
+- [Ons team](https://disgroup.nl/over-ons/ons-team-erp-specialist/)
+- [Contact](https://disgroup.nl/contact/)
+- [Nieuws](https://disgroup.nl/dis-nieuws-dis-group/)
+- [Vacatures](https://disgroup.nl/werken-bij/vacatures/)
