@@ -191,7 +191,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>
 </header>
 <main>
-<section class="row flex-content row1 small bg-logo">
+<section class="row flex-content row1 small bg-logo" style="background:#281B63;color:#fff;">
 <div class="bg-logo"><img alt="Logo highlight" loading="lazy" src="/disgroup-ai-preview/wp-content/themes/minimal210-child/includes/assets/svg/logo-highlight.svg"/></div>
 <div class="full-row"><div class="blocks-container"><div class="wrapper"><div class="blocks-group content"><div class="block text">
 <h4>Overdracht &amp; blueprint voor Buro 210</h4>
@@ -199,7 +199,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div></div></div></div></div>
 </section>
 <section class="row flex-content row2 padding-opt3">
-<div class="full-row"><div class="blocks-container"><div class="blocks-group content"><div class="wrapper"><div class="block text">
+<div class="full-row"><div class="blocks-container"><div class="blocks-group content"><div class="wrapper"><div class="block text" id="wijz-scope-top">
 <p>Deze statische preview is gebaseerd op de live WordPress-site van DIS Group (meting 18 &amp; 21 november 2026) en bevat de paginaverbeteringen uit het AI-vindbaarheidsrapport. Elke previewpagina draagt tijdelijk <code>&lt;meta name="robots" content="noindex, nofollow"&gt;</code> zodat deze testomgeving niet met live concurreert — <strong>zet die regel nooit over naar live</strong>. Alle wijzigingen zijn in de HTML-bron gemarkeerd met <code>&lt;!-- AI-GEO: ... --&gt;</code>.</p>
 <p><strong>Direct bekijken in deze preview:</strong>
 <a href="/disgroup-ai-preview/" style="text-decoration:underline;">Homepage (intro + FAQ + JSON-LD)</a> ·
@@ -211,16 +211,24 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
       <a href="/disgroup-ai-preview/llms-full.txt" style="text-decoration:underline;">llms-full.txt</a> ·
       <a href="/disgroup-ai-preview/sitemap.xml" style="text-decoration:underline;">sitemap.xml</a>
 </p>
+<style>
+      #wijz-scope a, #wijz-scope-top a { color:#281B63 !important; font-weight:600; }
+      .wf-btn { border:1px solid #281B63; background:#fff; color:#281B63; border-radius:6px; padding:8px 14px; font-family:"Poppins",sans-serif; font-size:14px; font-weight:600; cursor:pointer; }
+      .wf-btn.active { background:#281B63; color:#fff; }
+      .wf-btn:hover { background:#f2f0fa; }
+      .wf-btn.active:hover { background:#1d124a; }
+    </style>
+<div id="wijz-scope">
 <div style="margin:20px 0 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
 <strong>Filter fase:</strong>
-<button class="button orange wijz-btn" onclick="filterWijz('fase','all')" style="padding:8px 14px;cursor:pointer;" type="button">Alle (13)</button>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('fase','quick')" style="padding:8px 14px;cursor:pointer;" type="button">Quick wins</button>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('fase','kort')" style="padding:8px 14px;cursor:pointer;" type="button">1-3 maanden</button>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('fase','lang')" style="padding:8px 14px;cursor:pointer;" type="button">3-6 maanden</button>
+<button class="wf-btn active" data-kind="fase" onclick="filterWijz('fase','all',this)" type="button">Alle (13)</button>
+<button class="wf-btn" data-kind="fase" onclick="filterWijz('fase','quick',this)" type="button">Quick wins</button>
+<button class="wf-btn" data-kind="fase" onclick="filterWijz('fase','kort',this)" type="button">1-3 maanden</button>
+<button class="wf-btn" data-kind="fase" onclick="filterWijz('fase','lang',this)" type="button">3-6 maanden</button>
 <strong style="margin-left:12px;">Wie:</strong>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('wie','all')" style="padding:8px 14px;cursor:pointer;" type="button">Iedereen</button>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('wie','buro')" style="padding:8px 14px;cursor:pointer;" type="button">Buro 210</button>
-<button class="button trans-blue wijz-btn" onclick="filterWijz('wie','dis')" style="padding:8px 14px;cursor:pointer;" type="button">DIS</button>
+<button class="wf-btn active" data-kind="wie" onclick="filterWijz('wie','all',this)" type="button">Iedereen</button>
+<button class="wf-btn" data-kind="wie" onclick="filterWijz('wie','buro',this)" type="button">Buro 210</button>
+<button class="wf-btn" data-kind="wie" onclick="filterWijz('wie','dis',this)" type="button">DIS</button>
 </div>
 <div id="wijz-list">
 <article class="wijz-card" data-fase="quick" data-wie="buro" style="border:1px solid #e2e2ea;border-radius:10px;padding:18px 20px;margin-bottom:14px;background:#fff;">
@@ -365,7 +373,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <p style="margin:0 0 6px;"><strong>Waarom (rapport):</strong> Rapport §2 (actie 20): Slug met wiskundige Unicode-tekens en afwijkende canonical; footer linkte naar redirect-URL's zoals <code>/over-ons/ons-team/</code>.</p>
 <p style="margin:0 0 6px;"><strong>Pagina('s):</strong> <a href="/disgroup-ai-preview/nieuwsbericht/van-implementatie-naar-grip-en-groei/" style="text-decoration:underline;">Nieuwsbericht</a> + Footer</p>
 <p style="margin:0;"><strong>Hoe in WordPress (Buro 210):</strong> Wijzig de permalink naar <code>van-implementatie-naar-grip-en-groei</code> met 301-redirect vanaf de oude URL. Werk de footer-menu-items bij naar de actuele URL's.</p>
-</article></div>
+</article></div></div>
 <h2 style="margin-top:32px;">Wat bewust NIET in deze statische preview zit (en waarom)</h2>
 <ul>
 <li><strong>Full-page caching &amp; TTFB (&lt; 0,6 s):</strong> De live serverreactie was mediaan 2,02 s. Dat los je op in de WordPress-hosting/LiteSpeed Cache (actie Buro 210), niet in statische HTML op GitHub Pages.</li>
@@ -378,9 +386,13 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </section>
 <script>
 var _wf = 'all', _ww = 'all';
-function filterWijz(kind, val) {
+function filterWijz(kind, val, btn) {
   if (kind === 'fase') _wf = val;
   if (kind === 'wie') _ww = val;
+  if (btn) {
+    document.querySelectorAll('.wf-btn[data-kind="' + kind + '"]').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+  }
   document.querySelectorAll('.wijz-card').forEach(function(el) {
     var okF = (_wf === 'all' || el.dataset.fase === _wf);
     var okW = (_ww === 'all' || el.dataset.wie === _ww || el.dataset.wie === 'beide');
